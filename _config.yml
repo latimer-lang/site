@@ -1,0 +1,54 @@
+# Site Settings
+lang: en
+title: Latimer
+tagline: Statically-typed interpreted language
+email: jyoopyter.notebooks@gmail.com
+description: >
+  A general-purpose statically-typed interpreted language with strong type-safety guarantees and fast compilation/runtime
+baseurl: ""
+url: "https://www.latimer-lang.org"
+permalink: pretty
+#favicon: /path/to/favicon.png
+gh_link: joonyoo181/latimer
+#hide_share_buttons: true
+#theme_color: '#eeeeee'
+#fixed_navbar: top
+#direction: one of <ltr, rtl, auto>, default: ltr
+force_theme: light
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-seo-tag
+  - kramdown-parser-gfm
+  - jekyll-redirect-from
+
+exclude: 
+  - Gemfile
+  - clean-theme.gemspec
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+livereload: true
+
+sass:
+  style: compressed
+  source_dir: _sass
+  # load_paths: 
+    # - node_modules
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      show_sidebar: true
+
+markdown: kramdown
+highlighter: rouge
