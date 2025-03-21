@@ -15,7 +15,6 @@ gh_link: joonyoo181/latimer
 #fixed_navbar: top
 #direction: one of <ltr, rtl, auto>, default: ltr
 force_theme: light
-remote_theme: chrisrhymes/bulma-clean-theme@v1.0.0
 
 plugins:
   - jekyll-sitemap
