@@ -13,38 +13,22 @@ hero_darken: true
 
 # Latimer
 
-This website showcases the options for the Bulma Clean theme. The theme is available as a ruby gem or can be used with GitHub pages. 
+![GitHub release](https://img.shields.io/github/v/release/latimer-lang/latimer)
+![GitHub stars](https://img.shields.io/github/stars/latimer-lang/latimer?style=social)
+![GitHub forks](https://img.shields.io/github/forks/latimer-lang/latimer?style=social)
+![GitHub contributors](https://img.shields.io/github/contributors/latimer-lang/latimer)
 
-[![Gem Version](https://badge.fury.io/rb/bulma-clean-theme.svg)](https://badge.fury.io/rb/bulma-clean-theme)
-![Gem](https://img.shields.io/gem/dt/bulma-clean-theme.svg)
-![GitHub Repo stars](https://img.shields.io/github/stars/chrisrhymes/bulma-clean-theme?style=social)
+With simplicity in mind, Latimer combines the ease-of-use of scripting languages like Python with the safety, speed, and reliability of languages like C++.
 
-## Ruby Gem
+# Getting Started
 
-The ruby gem is available on the Ruby Gems website at the following location. [https://rubygems.org/gems/bulma-clean-theme](https://rubygems.org/gems/bulma-clean-theme).
+[Documentation](https://www.latimer-lang.org/docs/) - Dive into tutorials, guides, and reference materials.
 
-## Documentation
+[GitHub Repository](https://github.com/latimer-lang/latimer) - Explore the source code, report issues, or contribute.
 
-For full instructions, please see the [Documentation](/bulma-clean-theme/docs/)
+# Community and Support
 
-## Page Layouts
+![Issues](https://img.shields.io/github/issues/latimer-lang/latimer)
+![Pull Requests](https://img.shields.io/github/issues-pr/latimer-lang/latimer)
 
-This demo site showcases the available page layout options. 
-
-* Sidebar
-* Menubar
-* Tabs
-* Footer
-* Hero
-* Contents
-* Landing Page With Callouts
-* Promo Page
-* Sponsors Page
-* Image Gallery
-* Post
-
-## Supported By JetBrains
-
-JetBrains have kindly provided an Open Source licence to aid in the future development of Bulma Clean Theme.
-
-[![JetBrains](img/jetbrains-variant-4.svg)](https://www.jetbrains.com/?from=bulma-clean-theme)
+Latimer thrives on community support and collaboration. Contributions are always welcome—check out the [contribution guidelines TODO-FIX](https://github.com/latimer-lang/latimer) to get started.
