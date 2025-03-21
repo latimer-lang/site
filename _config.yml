@@ -5,8 +5,8 @@ tagline: Statically-typed interpreted language
 email: jyoopyter.notebooks@gmail.com
 description: >
   A general-purpose statically-typed interpreted language with strong type-safety guarantees and fast compilation/runtime
-baseurl: "/site"
-url: "https://www.latimer-lang.org"
+baseurl: ""
+url: "https://latimer-lang.org"
 permalink: pretty
 #favicon: /path/to/favicon.png
 gh_link: joonyoo181/latimer
