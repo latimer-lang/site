@@ -1,12 +1,11 @@
 style: is-light
 items:
-  - title: Multiple page layouts
-    subtitle: Including sidebar, menubar, tabs and callouts
-    icon: fa-copy
-  - title: Blog included
-    subtitle: Layouts for blog and post pages included
-    icon: fa-mail-bulk
-  - title: Works with GitHub Pages
-    subtitle: Quick and easy to get started
-    icon: fa-github
-    icon_brand: true
+  - title: Simple
+    subtitle: Latimer features a clear, structured syntax inspired by Java, C++, and Python, making it easy to learn, intuitive to read, and simple to maintain.
+    icon: fa-code
+  - title: Safe
+    subtitle: Latimer's type system enables safe scripting by enforcing strict typing rules, preventing errors early, and ensuring reliability.
+    icon: fa-shield-alt
+  - title: Efficient
+    subtitle: Latimer is optimized for fast execution and iteration, allowing developers to iterate quickly on scripts without losing runtime performance.
+    icon: fa-bolt
