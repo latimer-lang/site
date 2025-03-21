@@ -8,9 +8,7 @@ description: >
 baseurl: ""
 url: "https://latimer-lang.org"
 permalink: pretty
-#favicon: /path/to/favicon.png
 gh_link: joonyoo181/latimer
-#hide_share_buttons: true
 #theme_color: '#eeeeee'
 #fixed_navbar: top
 #direction: one of <ltr, rtl, auto>, default: ltr
@@ -18,8 +16,6 @@ force_theme: light
 
 plugins:
   - jekyll-sitemap
-  - jekyll-paginate
-  - jekyll-feed
   - jekyll-seo-tag
   - kramdown-parser-gfm
   - jekyll-redirect-from
