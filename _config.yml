@@ -1,10 +1,10 @@
 # Site Settings
 lang: en
 title: Latimer
-tagline: Statically-typed interpreted language
+tagline: A general-purpose statically-typed interpreted language designed for efficiency, safety, and developer productivity.
 email: jyoopyter.notebooks@gmail.com
 description: >
-  A general-purpose statically-typed interpreted language with strong type-safety guarantees and fast compilation/runtime
+  A general-purpose statically-typed interpreted language designed for efficiency, safety, and developer productivity.
 baseurl: ""
 url: "https://latimer-lang.org"
 permalink: pretty
