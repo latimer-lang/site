@@ -16,7 +16,6 @@ hero_darken: true
 ![GitHub release](https://img.shields.io/github/v/release/latimer-lang/latimer)
 ![GitHub stars](https://img.shields.io/github/stars/latimer-lang/latimer?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/latimer-lang/latimer?style=social)
-![GitHub contributors](https://img.shields.io/github/contributors/latimer-lang/latimer)
 
 Latimer combines the ease-of-use of scripting languages like Python with the safety, speed, and reliability of languages like C++. Most ideal for writing and debugging large scripts.
 
@@ -28,6 +27,7 @@ Latimer combines the ease-of-use of scripting languages like Python with the saf
 
 # Community and Support
 
+![GitHub contributors](https://img.shields.io/github/contributors/latimer-lang/latimer)
 ![Issues](https://img.shields.io/github/issues/latimer-lang/latimer)
 ![Pull Requests](https://img.shields.io/github/issues-pr/latimer-lang/latimer)
 
