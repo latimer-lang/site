@@ -1,6 +1,6 @@
 ---
 title: Latimer
-subtitle: A general-purpose statically-typed interpreted language designed for efficiency, safety, and developer productivity.
+subtitle: A statically-typed interpreted programming language built for speed, safety, and clarity.
 layout: page
 callouts: home_callouts
 show_sidebar: false
@@ -17,7 +17,7 @@ hero_link_text: Get Started
 ![GitHub stars](https://img.shields.io/github/stars/latimer-lang/latimer?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/latimer-lang/latimer?style=social)
 
-Latimer combines the ease-of-use of scripting languages like Python with the safety, speed, and reliability of languages like C++. Most ideal for writing and debugging large scripts.
+Latimer is a general-purpose statically-typed interpreted programming language with explicit syntax designed for efficiency, safety, and developer productivity. It combines the ease-of-use of scripting languages like Python with the safety, speed, and reliability of languages like Java and C++. Most ideal for writing and debugging large scripts.
 
 # Getting Started
 
