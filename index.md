@@ -7,8 +7,8 @@ show_sidebar: false
 hero_link: /page-1/
 hero_link_text: Get Started
 # hero_height: is-large
-hero_image: /assets/images/latimer-header
-hero_darken: true
+# hero_image: /assets/images/latimer-header
+# hero_darken: true
 ---
 
 # Latimer

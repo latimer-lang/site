@@ -15,3 +15,16 @@ $hero-darken: $dark !default;
 
 @import "layout";
 @import "syntax";
+
+:root {
+    --navbar-bg-color: #2A2A2A;
+    --navbar-border-color: #444444;
+    --navbar-item-hover-bg: #3A3A3A;
+    --navbar-item-active-bg: #444444;
+    --navbar-text-color: #FFFFFF;
+
+    --button-bg-color: #2A2A2A;
+    --button-hover-bg-color: #3A3A3A;
+    --button-border-color: #444444;
+    --button-text-color: #FFFFFF;
+}
