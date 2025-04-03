@@ -42,15 +42,18 @@ div.highlight {
     }
 }
 
-.navbar-burger span {
-    background-color: var(--navbar-text-color) !important;
+.navbar-border-wrapper {
+    border-bottom: 1px solid var(--navbar-border-color);
 }
 
 .navbar,
 .navbar-menu  {
     background-color: var(--navbar-bg-color);
     color: var(--navbar-text-color);
-    border-bottom: 1px solid var(--navbar-border-color);
+}
+
+.navbar-burger span {
+    background-color: var(--navbar-text-color) !important;
 }
 
 .navbar-item,
