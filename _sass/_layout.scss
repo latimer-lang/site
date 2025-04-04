@@ -57,9 +57,11 @@ div.highlight {
 }
 
 .navbar-item,
-.navbar-link {
-    color: inherit;
-    background-color: transparent;
+.navbar-link,
+.navbar-item.is-active,
+.navbar-link.is-active {
+    background-color: var(--navbar-bg-color);
+    color: var(--navbar-text-color);
 }
 
 .navbar-item:hover,
@@ -67,12 +69,7 @@ div.highlight {
 .navbar-item.is-active:hover,
 .navbar-link.is-active:hover {
     background-color: var(--navbar-item-hover-bg);
-}
-
-.navbar-item.is-active,
-.navbar-link.is-active {
-    background-color: transparent;
-    color: inherit;
+    color: var(--navbar-text-color);
 }
 
 .button {
