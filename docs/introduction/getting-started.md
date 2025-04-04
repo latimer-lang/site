@@ -7,51 +7,45 @@ show_sidebar: false
 toc: true
 ---
 
-## Use the Gem with Jekyll
+## Installation
+{% include notification.html 
+message="Latimer is currently in active development and the binary is not yet ready for release. Please check back on it soon!
+"%}
 
-{% include notification.html message="V1.x of this theme requires Jekyll <= 4.3 to be compatible with Bulma v1." %}
+To get started with Latimer, you need to use the `latimer` command line binary to run your code. You can download these from a [recent release](https://github.com/latimer-lang/latimer/releases/).
 
-Add this line to your Jekyll site's `Gemfile`:
+## Creating a "Hello World"
+To write your first Latimer script, create a new file with the `.lat` extension. For this example, we’ll create a file called `hello_world.lat`.
 
-```ruby
-gem "bulma-clean-theme",  '1.0.0'
+Latimer does not require a `main()` function to execute a program. Instead, it executes all statements in the global scope.
+
+```cpp
+void hello_world() {
+    print "Hello World!";
+}
+
+hello_world();
 ```
 
-And add this line to your Jekyll site's `_config.yml`:
+Note: `print` is not a function, but a reserved keyword built into the language. This is a temporary feature used for testing during development. In the full release, `print` will be a proper function included in the [File I/O](https://www.latimer-lang.org/docs/stdlib/file-io/) standard library.
 
-```yaml
-theme: bulma-clean-theme
+## Running the "Hello World"
+To run the script, use the `latimer` binary. Assuming the binary is in the same directory as `hello_world.lat`, run the program with:
+
+```bash
+$ ./latimer hello_world.lat
+Hello World!
 ```
 
-And then execute:
+## Next Steps
+Congratulations on writing your first Latimer program! If you want to explore more, consider checking out:
+- Explore [rest of the documentation](https://www.latimer-lang.org/docs/language/syntax-overview/) for a deeper look at Latimer’s features and internals.
+- Check out the [Latimer GitHub repository](https://github.com/latimer-lang/latimer) to browse the source code or contribute via pull request.
 
-    $ bundle
+## Getting Help
+If you’re stuck or have questions, there are a few ways to get support:
+- Browse or post in [GitHub Discussions](https://github.com/latimer-lang/latimer/discussions) — Ask for help, share ideas, or show off what you're building.
+- Open an issue on [GitHub Issues](https://github.com/latimer-lang/latimer/issues) — If you think you’ve found a bug or something’s not working as expected.
+- Read the full documentation — You might find what you’re looking for in the language guide or standard library docs.
 
-Or install it yourself as:
-
-    $ gem install bulma-clean-theme
-
-## GitHub Pages 
-
-### v0.x of Bulma Clean Theme
-
-If you are deploying to GitHub pages, then you can also install the [GitHub Pages gem](https://github.com/github/pages-gem) and use `remote_theme` instead of `theme` in your `_config.yml`. 
-
-Ensure you specify the version number at the end of the remote_theme, otherwise it will use the default version of the theme. 
-
-```yaml
-# _config.yml
-remote_theme: chrisrhymes/bulma-clean-theme@v0.14.0
-```
-
-### v1.x of Bulma Clean Theme
-
-{% include notification.html message="v1.x does not work with the GitHub pages default build process. " status="is-warning" %}
-
-When using v1.x of this theme, use GitHub actions to deploy your site to GitHub pages.
-
-Please read the [upgrade guide](/bulma-clean-theme/docs/getting-started/upgrading-to-v1/) for more information.
-
-## Syntax
-
-The syntax closely resembles a mix of C++, Java, and Python. Hidden behavior is avoided, and the language emphasizes code clarity and explicit intent. Type checking is performed at compile time, and programs are executed through an interpreter to support rapid testing and debugging.
+Latimer is being built in the open, so don’t hesitate to reach out or contribute!

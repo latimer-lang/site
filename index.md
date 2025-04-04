@@ -4,7 +4,7 @@ subtitle: A statically-typed interpreted programming language built for speed, s
 layout: page
 callouts: home_callouts
 show_sidebar: false
-hero_link: /page-1/
+hero_link: /docs/introduction/getting-started/
 hero_link_text: Get Started
 # hero_height: is-large
 # hero_image: /assets/images/latimer-header
