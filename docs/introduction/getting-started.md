@@ -1,8 +1,8 @@
 ---
 layout: page
 menubar: docs_menu
-title: Installation
-subtitle: Getting Started
+title: Getting Started
+subtitle: Introduction
 show_sidebar: false
 toc: true
 ---
@@ -51,3 +51,7 @@ remote_theme: chrisrhymes/bulma-clean-theme@v0.14.0
 When using v1.x of this theme, use GitHub actions to deploy your site to GitHub pages.
 
 Please read the [upgrade guide](/bulma-clean-theme/docs/getting-started/upgrading-to-v1/) for more information.
+
+## Syntax
+
+The syntax closely resembles a mix of C++, Java, and Python. Hidden behavior is avoided, and the language emphasizes code clarity and explicit intent. Type checking is performed at compile time, and programs are executed through an interpreter to support rapid testing and debugging.

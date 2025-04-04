@@ -59,16 +59,20 @@ div.highlight {
 .navbar-item,
 .navbar-link {
     color: inherit;
+    background-color: transparent;
 }
 
 .navbar-item:hover,
-.navbar-link:hover {
+.navbar-link:hover,
+.navbar-item.is-active:hover,
+.navbar-link.is-active:hover {
     background-color: var(--navbar-item-hover-bg);
 }
 
 .navbar-item.is-active,
 .navbar-link.is-active {
-    background-color: var(--navbar-item-active-bg);
+    background-color: transparent;
+    color: inherit;
 }
 
 .button {

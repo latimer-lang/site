@@ -1,76 +1,58 @@
-- label: Getting Started
+- label: Introduction
   items:
-    - name: Installation
-      link: /docs/getting-started/installation/
-    - name: Upgrading to v1
-      link: /docs/getting-started/upgrading-to-v1/
-    - name: Configuration
-      link: /docs/getting-started/configuration/
-    - name: Theming
-      link: /docs/getting-started/theming/
-    - name: Sidebar
-      link: /docs/getting-started/sidebar/
-    - name: Scripts
-      link: /docs/getting-started/scripts/
+    - name: About
+      link: /docs/introduction/about/
+    - name: Getting Started
+      link: /docs/introduction/getting-started/
 
 
-- label: Navigation
+- label: Language Guide
   items:
-    - name: Top navigation
-      link: /docs/navigation/top-navigation/
-    - name: Footer navigation
-      link: /docs/navigation/footer-navigation/
-    - name: Menubar
-      link: /docs/navigation/menubar/
+    - name: Syntax Overview
+      link: /docs/language/syntax-overview/
+    - name: Variables & Types
+      link: /docs/language/variables-types/
+    - name: Control Flow
+      link: /docs/language/control-flow/
+    - name: Blocks & Scopes
+      link: /docs/language/blocks-scopes/
+    - name: Functions & Closures
+      link: /docs/language/functions-closures/
+    - name: Structs & Inheritance
+      link: /docs/language/structs-inheritance/
+    - name: Imports/Exports
+      link: /docs/language/imports-exports/
+    - name: Type System
+      link: /docs/language/type-system/
 
-- label: Pages
+
+- label: Standard Library
   items:
-    - name: Creating a page
-      link: /docs/pages/creating-a-page/
-    - name: Hero
-      link: /docs/pages/hero/
-    - name: Table of Contents
-      link: /docs/pages/table-of-contents/
+    - name: Overview
+      link: /docs/stdlib/overview/
+    - name: Collections
+      link: /docs/stdlib/collections/
+    - name: File I/O
+      link: /docs/stdlib/file-io/
+    - name: Concurrency
+      link: /docs/stdlib/concurrency/
+    - name: Networking
+      link: /docs/stdlib/networking/
+    - name: Math
+      link: /docs/stdlib/math/
+    - name: Time
+      link: /docs/stdlib/time/
+    - name: Utilities
+      link: /docs/stdlib/utilities/
 
-- label: Promo Pages
+
+- label: Language Internals
   items:
-    - name: Creating a promo page
-      link: /docs/promo-pages/creating-a-promo-page/
-
-- label: Posts
-  items:
-    - name: Creating a Post
-      link: /docs/posts/creating-a-post/
-    - name: Excerpt & Summary
-      link: /docs/posts/post-excerpt-summary/
-    - name: Series
-      link: /docs/posts/post-series/
-
-- label: Page Components
-  items: 
-    - name: Callouts
-      link: /docs/page-components/callouts/
-    - name: Image Gallery
-      link: /docs/page-components/image-gallery/
-    - name: Image Modal
-      link: /docs/page-components/image-modal/
-    - name: Notifications
-      link: /docs/page-components/notifications/
-    - name: Showcases
-      link: /docs/page-components/showcases/
-    - name: Tabs
-      link: /docs/page-components/tabs/
-    - name: Tags
-      link: /docs/page-components/tags/
-    - name: Video
-      link: /docs/page-components/video/
-
-
-- label: Products
-  items:
-    - name: Product Pages
-      link: /docs/products/product-pages/
-    - name: Product Reviews
-      link: /docs/products/product-reviews/
-    - name: Category Page
-      link: /docs/products/category-page/
+    - name: Lexical Analysis
+      link: /docs/internals/lexical-analysis/
+    - name: Parsing & ASTs
+      link: /docs/internals/parsing-ast/
+    - name: Semantic Analysis
+      link: /docs/internals/semantic-analysis/
+    - name: Interpreter
+      link: /docs/internals/interpreter/
