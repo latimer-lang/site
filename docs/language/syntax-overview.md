@@ -39,12 +39,12 @@ Multi-line comments are to come in the future and will have a /* ... */ syntax.
 This is a multi-line comment
 */
 
-print /* this is allowed and will print 1 */ 1;
+print /* this will be allowed and will print 1 */ 1;
 ```
 
 ## Whitespaces
 Any form of whitespaces (`" "`, `\t`, `\r`) are ignored by the lexer.
 
 ```cpp
-print              1; // This will work fine and print 1
+print              1; // This works and prints 1
 ```
