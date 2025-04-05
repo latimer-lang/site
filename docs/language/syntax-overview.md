@@ -48,3 +48,8 @@ Any form of whitespaces (`" "`, `\t`, `\r`) are ignored by the lexer.
 ```cpp
 print              1; // This works and prints 1
 ```
+
+## Naming Conventions
+Latimer follows a consistent naming convention based on `snake_case` for most identifiers, including variables, functions, and types.
+
+The exception is **struct names**, which begin with a capital letter and use **CamelCase**. This distinction helps visually separate struct types from regular identifiers when reading code at a glance.

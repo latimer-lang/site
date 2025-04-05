@@ -27,7 +27,13 @@ void hello_world() {
 hello_world();
 ```
 
-Note: `print` is not a function, but a reserved keyword built into the language. This is a temporary feature used for testing during development. In the full release, `print` will be a proper function included in the [File I/O](https://www.latimer-lang.org/docs/stdlib/file-io/) standard library.
+{% include notification.html 
+message="
+`print` is not a function, but a reserved keyword built into the language. This is a temporary feature used for testing during development. In the full release, `print` will be a proper function included in the [File I/O](https://www.latimer-lang.org/docs/stdlib/file-io/) standard library."
+icon="fas fa-tools"
+status="is-info"
+ %}
+
 
 ## Running the "Hello World"
 To run the script, use the `latimer` binary. Assuming the binary is in the same directory as `hello_world.lat`, run the program with:
