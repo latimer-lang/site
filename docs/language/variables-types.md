@@ -73,3 +73,14 @@ In Latimer, floating-point numbers need digits before and after the dot. For exa
 " 
 icon="fas fa-exclamation-triangle" %}
 
+Latimer does not perform any implicit type casts for variables or return values. For example, the following code results in a type error:
+
+```cpp
+bool one() {
+    return 1;
+}
+```
+
+In many C-style languages, this would be valid—where the integer `1` is implicitly cast to a boolean `true`. However, in Latimer, this is a type error: the function is declared to return a `bool`, but instead returns an `int`.
+
+Latimer enforces strict type matching to prevent unintended behavior and improve code clarity.

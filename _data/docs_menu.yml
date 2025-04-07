@@ -14,6 +14,8 @@
       link: /docs/language/variables-types/
     - name: Control Flow
       link: /docs/language/control-flow/
+    - name: Operators
+      link: /docs/language/operators
     - name: Blocks & Scopes
       link: /docs/language/blocks-scopes/
     - name: Functions & Closures

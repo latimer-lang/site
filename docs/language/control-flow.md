@@ -112,35 +112,3 @@ if temp_fahrenheit <= 32 {
 ```
 
 In this case, none of the conditions match, so the program continues without printing anything.
-
-### Ternary Operator
-
-Latimer includes a **ternary operator** for concise conditional expressions. It follows the format:
-
-```cpp
-condition ? value_if_true : value_if_false;
-```
-
-The condition must evaluate to a boolean value. If the condition is `true`, the expression evaluates to `value_if_true`; otherwise, it evaluates to `value_if_false`.
-
-For example,
-
-```cpp
-int score = 85;
-string result = score >= 60 ? "Pass" : "Fail";
-print result;
-// Prints: "Pass"
-```
-
-is equivalent to
-
-```cpp
-string result;
-if (score >= 60) {
-    result = "Pass";
-} else {
-    result = "Fail";
-}
-```
-
-Ternary expressions are useful for simple conditional assignments or inline value selection. For more complex logic, we recommend using full `if` statements for better readability.
