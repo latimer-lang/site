@@ -52,12 +52,24 @@ Operands must be of compatible types (e.g., comparing `int` to `int` or `string`
 
 ## Assignment
 
-Assignment in Latimer is done using the `=` operator. Assignments are expressions that return the assigned value.
+Assignment in Latimer is done using the `=` operator.
 
 ```cpp
 int a;
 a = 10;
 int b = a = 5; // b is 5, a is also 5
+```
+
+Assignments are expressions that return the assigned value.
+
+```cpp
+string name;
+
+if ((name = read_name()) != "") {
+    print "Hello, " + name + "!";
+} else {
+    print "No name provided.";
+}
 ```
 
 Note: The left-hand side of an assignment must be an existing variable identifier.
