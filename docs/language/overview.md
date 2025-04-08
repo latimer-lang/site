@@ -26,21 +26,25 @@ print(1); print(2); // Prints 1 and 2, respectively
 ```
 
 ## Comments
-Use // for single-line comments comments. 
+Use `//` for single-line comments. 
 
 ```cpp
 // This is a single-line comment
 ```
 
-Multi-line comments are to come in the future and will have a /* ... */ syntax.
+Use `/* ... */` for multi-line comments.
 
 ```cpp
 /* 
-This is a multi-line comment
+This is a multi-line comment.
+It spans multiple lines.
 */
 
-print/* this will be allowed and will print 1 */ (1);
+print/* this is allowed and prints 1 */(1);
 ```
+Multi-line comments can appear anywhere whitespace is allowed, including inline—such as between a function name and its argument list.
+
+All comments are ignored during compilation.
 
 ## Whitespaces
 Any form of whitespaces (`" "`, `\t`, `\r`) are ignored by the lexer.
