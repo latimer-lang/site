@@ -1,7 +1,7 @@
 ---
 layout: page
 menubar: docs_menu
-title: Syntax Overview
+title: Overview
 subtitle: Language Guide
 show_sidebar: false
 toc: true
@@ -10,7 +10,7 @@ toc: true
 ## Overview
 Latimer’s syntax is designed to be familiar to users coming from C-style languages like C++ or Java, while removing ambiguity and enforcing clarity through explicit semantics. This page provides a quick overview of the language’s structure and conventions.
 
-## File Structure
+## File Extension
 Latimer scripts are plain text files with a .lat extension. While the compiler does not enforce any extensions on files, it is a good convention to do so! All top-level statements are executed in order, and there's no required main() entry point.
 
 ```cpp

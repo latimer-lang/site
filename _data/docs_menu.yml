@@ -8,8 +8,8 @@
 
 - label: Language Guide
   items:
-    - name: Syntax Overview
-      link: /docs/language/syntax-overview/
+    - name: Overview
+      link: /docs/language/overview/
     - name: Variables & Types
       link: /docs/language/variables-types/
     - name: Control Flow
