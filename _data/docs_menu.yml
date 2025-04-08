@@ -28,24 +28,24 @@
       link: /docs/language/type-system/
 
 
-- label: Standard Library
+- label: Native Functions
   items:
     - name: Overview
-      link: /docs/stdlib/overview/
+      link: /docs/native_fn/overview/
     - name: Collections
-      link: /docs/stdlib/collections/
+      link: /docs/native_fn/collections/
     - name: File I/O
-      link: /docs/stdlib/file-io/
+      link: /docs/native_fn/file-io/
     - name: Concurrency
-      link: /docs/stdlib/concurrency/
+      link: /docs/native_fn/concurrency/
     - name: Networking
-      link: /docs/stdlib/networking/
+      link: /docs/native_fn/networking/
     - name: Math
-      link: /docs/stdlib/math/
+      link: /docs/native_fn/math/
     - name: Time
-      link: /docs/stdlib/time/
+      link: /docs/native_fn/time/
     - name: Utilities
-      link: /docs/stdlib/utilities/
+      link: /docs/native_fn/utilities/
 
 
 - label: Language Internals

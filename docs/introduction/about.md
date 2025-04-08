@@ -49,7 +49,7 @@ void increment_count():
 
 for (int i = 0; i < 10; i = i + 1) {
     increment_count();
-    print count;
+    print(count);
 }
 ```
 

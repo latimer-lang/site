@@ -17,7 +17,7 @@ A `for` loop is typically used when the number of iterations is known ahead of t
 
 ```cpp
 for (int i = 0; i < 5; i = i + 1) {
-    print i;
+    print(i);
 }
 // Prints: 0 1 2 3 4
 ```
@@ -32,7 +32,7 @@ All three components are optional. For example, you can declare `i` outside the 
 ```cpp
 int i = 0;
 for (; i < 3; i = i + 1) {
-    print i;
+    print(i);
 }
 ```
 
@@ -43,7 +43,7 @@ A while loop is used when the condition must be checked before every iteration, 
 ```cpp
 int x = 1;
 while (x < 100) {
-    print x;
+    print(x);
     x = x * 2;
 }
 // Prints: 1 2 4 8 16 32 64
@@ -63,7 +63,7 @@ for (int i = 0; i < 10; i = i + 1) {
     if (i == 5) {
         break;
     }
-    print i;
+    print(i);
 }
 // Prints: 0 1 2 3 4
 ```
@@ -84,7 +84,7 @@ for (int i = 0; i < 5; i = i + 1) {
     if (i == 2) {
         continue;
     }
-    print i;
+    print(i);
 }
 // Prints: 0 1 3 4
 ```
@@ -107,7 +107,7 @@ An `if` statement takes an expression that evaluates to a boolean value. If the 
 ```cpp
 int temp_fahrenheit = 30;
 if (temp_fahrenheit <= 32) {
-    print "It's very cold. Consider wearing a scarf.";
+    print("It's very cold. Consider wearing a scarf.");
 }
 // Prints "It's very cold. Consider wearing a scarf."
 ```

@@ -21,18 +21,11 @@ Latimer does not require a `main()` function to execute a program. Instead, it e
 
 ```cpp
 void hello_world() {
-    print "Hello World!";
+    print("Hello World!");
 }
 
 hello_world();
 ```
-
-{% include notification.html 
-message="
-`print` is not a function, but a reserved keyword built into the language. This is a temporary feature used for testing during development. In the full release, `print` will be a proper function included in the [File I/O](https://www.latimer-lang.org/docs/stdlib/file-io/) standard library."
-icon="fas fa-tools"
-status="is-info"
- %}
 
 
 ## Running the "Hello World"
@@ -52,6 +45,6 @@ Congratulations on writing your first Latimer program! If you want to explore mo
 If you’re stuck or have questions, there are a few ways to get support:
 - Browse or post in [GitHub Discussions](https://github.com/latimer-lang/latimer/discussions) — Ask for help, share ideas, or show off what you're building.
 - Open an issue on [GitHub Issues](https://github.com/latimer-lang/latimer/issues) — If you think you’ve found a bug or something’s not working as expected.
-- Read the full documentation — You might find what you’re looking for in the language guide or standard library docs.
+- Read the full documentation — You might find what you’re looking for in the language guide or native functions docs.
 
 Latimer is being built in the open, so don’t hesitate to reach out or contribute!

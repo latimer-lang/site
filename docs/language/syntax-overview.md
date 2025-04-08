@@ -15,14 +15,14 @@ Latimer scripts are plain text files with a .lat extension. While the compiler d
 
 ```cpp
 // hello_world.lat
-print "Hello World!";
+print("Hello World!");
 ```
 
 ## Statements & Semicolons
 Statements are terminated by semicolons (;). Omitting them is not allowed. This allows the start and end of statements to be easily-distinguishable and multiple statements to exist in one line.
 
 ```cpp
-print 1; print 2; // Prints 1 and 2, respectively
+print(1); print(2); // Prints 1 and 2, respectively
 ```
 
 ## Comments
@@ -39,14 +39,14 @@ Multi-line comments are to come in the future and will have a /* ... */ syntax.
 This is a multi-line comment
 */
 
-print /* this will be allowed and will print 1 */ 1;
+print/* this will be allowed and will print 1 */ (1);
 ```
 
 ## Whitespaces
 Any form of whitespaces (`" "`, `\t`, `\r`) are ignored by the lexer.
 
 ```cpp
-print              1; // This works and prints 1
+print        (     1); // This works and prints 1
 ```
 
 ## Naming Conventions

@@ -1,8 +1,8 @@
 ---
 layout: page
 menubar: docs_menu
-title: Overview
-subtitle: Standard Library
+title: Math
+subtitle: Native Functions
 show_sidebar: false
 toc: true
 ---

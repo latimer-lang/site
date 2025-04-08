@@ -1,8 +1,8 @@
 ---
 layout: page
 menubar: docs_menu
-title: Collections
-subtitle: Standard Library
+title: Overview
+subtitle: Native Functions
 show_sidebar: false
 toc: true
 ---

@@ -11,15 +11,15 @@ toc: true
 
 Latimer supports the following primitive types:
 
-- `int`: a 32-bit signed integer
-- `float`: a 32-bit single-precision floating-point number (IEEE 754)
+- `int`: a 64-bit signed integer
+- `double`: a 64-bit double-precision floating-point number (IEEE 754)
 - `char`: a single character
 - `string`: a sequence of characters
 - `bool`: a boolean value (`true` or `false`)
 
 ## Other Types
 
-Latimer also includes the `void` type, which is used for functions that do not return a value. In addition, developers can define custom types using `struct`s.
+Latimer also includes the `void` type, which is used for functions that do not return a value. In addition, developers can define custom struct types and function types.
 
 ```cpp
 void return_nothing() {
@@ -52,7 +52,7 @@ By default, declared variables are uninitialized. Attempting to access a variabl
 
 ```cpp
 int x;
-print x; // Error: 'x' is uninitialized
+print(x); // Error: 'x' is uninitialized
 ```
 
 ## Values
@@ -62,7 +62,7 @@ Latimer supports the following kinds of runtime values:
 - string literals: text values enclosed in quotes (e.g. `"Hello"`)
 - character literals: individual characters enclosed in apostrophes (e.g. `'A'`, `'B'`)
 - integer literals: integer numbers (e.g. `123`)
-- floating-point literals: floating-point numbers (e.g. `123.45`)
+- floating-point literals: decimal numbers represented using `double` precision (e.g. `123.45`)
 - `null`: represents the absence of a value
 - boolean literals (e.g. `true` or `false`)
 - functions: a callable block of code that may take parameters and return a value; functions are first-class values and can be passed around or stored in variables

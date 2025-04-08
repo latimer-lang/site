@@ -21,7 +21,7 @@ Arithmetic operators perform basic mathematical operations:
 | `/`      | Division          | `a / b`       |
 | `%`      | Modulo (remainder)| `a % b`       |
 
-These operators work on numeric types like `int` and `float`.
+These operators work on numeric types like `int` and `double`.
 
 ## Logical
 
@@ -66,9 +66,9 @@ Assignments are expressions that return the assigned value.
 string name;
 
 if ((name = read_name()) != "") {
-    print "Hello, " + name + "!";
+    print("Hello, " + name + "!");
 } else {
-    print "No name provided.";
+    print("No name provided.");
 }
 ```
 
@@ -104,7 +104,7 @@ For example,
 ```cpp
 int score = 85;
 string result = score >= 60 ? "Pass" : "Fail";
-print result;
+print(result);
 // Prints: "Pass"
 ```
 
