@@ -39,13 +39,14 @@ for _ in range(10):
 
 Mistakes like this can be incredibly heinous to track down, especially in larger codebases.
 
-Latimer avoids these problems by enforcing explicit syntax and eliminating ambiguous behavior. For example, variables must be declared before an assignment. 
+Latimer avoids these problems by enforcing explicit syntax and eliminating ambiguous behavior. For example, variables must be declared before an assignment and closures must be specified when declaring a function. 
 
 ```cpp
 int count = 10;
 
-void increment_count():
+void increment_count[count]() {
     coutn = count + 1;  // this would error because `coutn` is not declared
+}
 
 for (int i = 0; i < 10; i = i + 1) {
     increment_count();

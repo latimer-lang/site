@@ -17,16 +17,17 @@ To get started with Latimer, you need to use the `latimer` command line binary t
 ## Creating a "Hello World"
 To write your first Latimer script, create a new file with the `.lat` extension. For this example, we’ll create a file called `hello_world.lat`.
 
-Latimer does not require a `main()` function to execute a program. Instead, it executes all statements in the global scope.
+Latimer does not require a `main()` function to execute a program. Instead, it executes all statements in the global scope, in the order they appear.
 
 ```cpp
-void hello_world() {
+void hello_world[]() {
     print("Hello World!");
 }
 
 hello_world();
 ```
 
+In the example above, we define a function named `hello_world` with no captured variables (`[]`) and no parameters (`()`). The function is then called from the global scope.
 
 ## Running the "Hello World"
 To run the script, use the `latimer` binary. Assuming the binary is in the same directory as `hello_world.lat`, run the program with:

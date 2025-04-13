@@ -22,7 +22,7 @@ Latimer supports the following primitive types:
 Latimer also includes the `void` type, which is used for functions that do not return a value. In addition, developers can define custom struct types and function types.
 
 ```cpp
-void return_nothing() {
+void return_nothing[]() {
     return;
 }
 
@@ -76,7 +76,7 @@ icon="fas fa-exclamation-triangle" %}
 Latimer does not perform any implicit type casts for variables or return values. For example, the following code results in a type error:
 
 ```cpp
-bool one() {
+bool one[]() {
     return 1;
 }
 ```
