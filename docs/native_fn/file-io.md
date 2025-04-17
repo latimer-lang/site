@@ -13,11 +13,11 @@ Outputs a single value to standard output, followed by a newline.
 
 ### Declaration
 ```cpp
-void print(any value);
+void print(int | double | string | bool | char | null value);
 ```
 
 ### Parameters
-* `value`: `int` \| `double` \| `string` \| `bool` \| `char` \| `null` \| struct types \| function references
+* `value`: `int` \| `double` \| `string` \| `bool` \| `char` \| `null`
 
 ### Return Value
 
