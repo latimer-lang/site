@@ -19,7 +19,7 @@ int add[](int a, int b) {
 }
 ```
 
-This example declares a function named `add` that captures no closure variables (`[]`) and takes two parameters (`(int a, int b)`).
+This example declares a function named `add` that captures no closure variables (`[]`) and takes two parameters (`int a` and `int b`).
 
 Functions must always specify:
 - Captured variables: using `[]`
@@ -57,7 +57,7 @@ print(count);  // Outputs: 11
 Only variables listed in the closure brackets will be accessible inside the function. If you try to access or mutate any other outer-scope variable that is not listed, the compiler will error. 
 
 {% include notification.html message="
-Closures capture the value of variables at the time the function is declared.
+Closures capture the value of variables at the time the function is declared—not a reference to the variable.
 ```cpp
 int x = 1;
 void printX[x]() {
