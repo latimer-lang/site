@@ -8,11 +8,13 @@ toc: true
 ---
 
 ## Installation
-{% include notification.html 
-message="Latimer is currently in active development and the binary is not yet ready for release. Please check back on it soon!
-"%}
 
-To get started with Latimer, you need to use the `latimer` command line binary to run your code. You can download these from a [recent release](https://github.com/latimer-lang/latimer/releases/).
+To get started with Latimer, use the `latimer` command-line binary to run your code. Platform-specific binaries are available as follows:
+* `latimer-version-linux-x86_64` for Linux
+* `latimer-version-macos-universal` for macOS (supports both Intel and Apple Silicon)
+* `latimer-version-windows-amd64.exe` for Windows
+
+You can download the appropriate binary from the [lateset release](https://github.com/latimer-lang/latimer/releases/).
 
 ## Creating a "Hello World"
 To write your first Latimer script, create a new file with the `.lat` extension. For this example, we’ll create a file called `hello_world.lat`.
