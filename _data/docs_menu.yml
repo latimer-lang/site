@@ -22,8 +22,6 @@
       link: /docs/language/functions-closures/
     - name: Structs & Inheritance
       link: /docs/language/structs-inheritance/
-    - name: Imports/Exports
-      link: /docs/language/imports-exports/
     - name: Type System
       link: /docs/language/type-system/
 
