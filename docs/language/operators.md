@@ -97,7 +97,7 @@ The ternary operator allows for concise conditional expressions. It follows the 
 condition ? value_if_true : value_if_false;
 ```
 
-The condition must evaluate to a boolean value. If the condition is `true`, the expression evaluates to `value_if_true`; otherwise, it evaluates to `value_if_false`.
+The condition must evaluate to a boolean value. If the condition is `true`, the expression evaluates to `value_if_true`; otherwise, it evaluates to `value_if_false`. `value_if_true` must be of the same type as `value_if_false`.
 
 For example,
 
