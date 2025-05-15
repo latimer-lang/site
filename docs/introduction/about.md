@@ -15,7 +15,7 @@ Latimer is under active development and is built from the ground up with simplic
 ## Why Latimer?
 (from the creator’s perspective)
 
-Latimer was born from the desire to combine the speed and convenience of scripting languages with the safety and structure typically found in compiled languages.
+Latimer was born from the desire to combine the iteration speed and convenience of scripting languages with the safety and structure typically found in compiled languages.
 
 One issue I’ve consistently encountered with scripting languages like Python and Bash is how easy it is to introduce bugs—especially in large scripts. The lack of strict structure often leads to subtle, hard-to-find errors.
 
